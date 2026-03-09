@@ -1,0 +1,17 @@
+{
+    "name": "Search",
+    "version": "1.0.1",
+    "description": "Extensible global search module",
+    "authors": [
+        "Flames"
+    ],
+    "providers": [
+        {
+            "class": "Flute\\Modules\\Search\\Providers\\SearchProvider",
+            "order": -100
+        }
+    ],
+    "dependencies": {
+        "modules": {}
+    }
+}
